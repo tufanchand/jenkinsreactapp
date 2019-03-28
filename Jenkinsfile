@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''npm install
-NPM Packages has been loaded'''
+        sh 'npm install'
+        echo 'NPM Packages has been loaded'
       }
     }
   }
